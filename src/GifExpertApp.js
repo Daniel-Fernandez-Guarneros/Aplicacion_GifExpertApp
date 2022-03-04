@@ -4,11 +4,11 @@ import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(['Shingeki No Kyojin']);
 
     return (
         <>
-            <h2>GifExpertApp</h2>
+            <h1>GifExpertApp</h1>
             <AddCategory setCategories={ setCategories } />
             <hr />
 
